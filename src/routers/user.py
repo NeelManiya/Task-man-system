@@ -1,4 +1,4 @@
-from fastapi import APIRouter, HTTPException, Depends, Header
+from fastapi import APIRouter, Depends, HTTPException, Header
 from database.database import get_db
 from src.schemas.user import (
     Register_User_Schema,
